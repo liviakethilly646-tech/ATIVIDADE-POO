@@ -1,16 +1,16 @@
 import { Politico } from "./Politico";
 import { Esfera } from "./Esfera";
-import { Poder } from "./Poder";
+import { Poder } from "./poder";
 
 export class Presidente extends Politico {
   constructor(
     nome: string,
     partido: string,
-    private quantidadeMinistros: number,
     localTrabalho: string,
     enderecoTrabalho: string,
     remuneracao: number,
-    projetos: string[] = []
+    projetos: string[] = [],
+    private quantidadeMinistros: number
   ) {
     super(nome, partido, Esfera.FEDERAL, Poder.EXECUTIVO,
       localTrabalho, enderecoTrabalho, remuneracao, projetos);
