@@ -1,5 +1,5 @@
 import { Esfera } from "./Esfera";
-import { Poder } from "./Poder";
+import { Poder } from "./poder";
 
 export abstract class Politico {
   private projetos: string[];
