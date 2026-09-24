@@ -1,6 +1,6 @@
 import { Politico } from "./Politico";
 import { Esfera } from "./Esfera";
-import { Poder } from "./Poder";
+import { Poder } from "./poder";
 
 export class DeputadoEstadual extends Politico {
   private comissoes: string[];
@@ -9,7 +9,7 @@ export class DeputadoEstadual extends Politico {
     nome: string,
     partido: string,
     private estado: string,
-    comissoes: string[],
+    comissoes: string,
     localTrabalho: string,
     enderecoTrabalho: string,
     remuneracao: number,
