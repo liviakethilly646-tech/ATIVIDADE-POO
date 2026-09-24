@@ -1,6 +1,6 @@
 import { Politico } from "./Politico";
 import { Esfera } from "./Esfera";
-import { Poder } from "./Poder";
+import { Poder } from "./poder";
 
 export class DeputadoFederal extends Politico {
   constructor(
